@@ -1,0 +1,10 @@
+{
+  "name": "nuxt-route-diff",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Compare two Nuxt pages directories without building the app.",
+  "engines": { "node": ">=22" },
+  "bin": { "nuxt-route-diff": "./bin/route-diff.mjs" },
+  "scripts": { "test": "node --test" }
+}
